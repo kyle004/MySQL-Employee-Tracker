@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Command-line CMS for tracking employees, roles, and departments using Node.js, Inquirer.js, and MySQL",
+  "main": "trackerDB.js",
+  "scripts": {
+    "start": "node trackerDB.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielryangreen/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielryangreen/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/danielryangreen/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  }
+}
